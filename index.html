@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Anna Minaeva</title> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ffa2cff3b5.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+<body>
+  <main>
+    <div class="section-main wrap" id="home">
+      <div class="section-background"></div>
+      <div class="section-media" style="background-image: url('image/media-bg.jpg');">
+        <div class="section-media-overlay">
+          <div class="section-media-video" data-video="">
+            <video data-ignore="" autoplay="" loop="" muted="" data-keepplaying="" playsinline="" poster="image/media-bg.jpg">
+              <source src="video/back-video.mp4" type="video/mp4">
+            </video></div>
+        </div>
+      </div>
+      <!------****MENU****---->
+      <div class="overlay">
+        <nav class="overlayMenu">  
+            <ul role="menu">
+                <li class="menu-list"><a href="#home" role="menuitem">Главная</a></li>
+                <li class="menu-list"><a href="#about" role="menuitem">О себе</a></li>
+                <li class="menu-list"><a href="#skills" role="menuitem">Skills</a></li>
+                <li class="menu-list"><a href="#works" role="menuitem">Работы</a></li>
+                <li class="menu-list"><a href="#contacts" role="menuitem">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="navBurger" role="navigation" id="navToggle"></div> 
+
+      <!------****///MENU****---->
+      <article class="title"> 
+        <h1>Минаева Анна.<br/>
+          Я начинающий <br/>
+          front-end разработчик</h1>
+      </article>
+    </div>
+    <!------*****ABOUT***---->
+    <section class="wrap content" id="about">
+      <div class="text">О себе</div>
+      <div class="wrap-about">
+        <p>Привет! Давайте знакомиться. Мои роботы в основном разработны  с использованием HTML, CSS, JavaScript, JQuery, но я знаю фреймворки React, Bootstrap. Хорошо организованный человек, умею работать в команде, коммуницируя как с клиентом, так и аналитиками и другими разработчиками. В свободное время активно занимаюсь спортом, хожу в походы, путешествую по Украине и миру, рисую при вдохновение, изучаю английский язык.</p>
+        <div id="foto1" style="background-image: url('image/3.jpg');"></div>
+      </div>       
+    </section>
+    <!------*****///ABOUT***---->
+
+    <!------*****SKILLS***---->
+    <section class="wrap content" id="skills">
+      <div class="text">Skills</div>
+      <div class="container">
+        <div class="chart" data-percent="80">HTML</div>
+        <div class="chart" data-percent="50">CSS</div>
+        <div class="chart" data-percent="30">JavaScript</div>
+        <div class="chart" data-percent="30">jQuery</div>
+      </div>
+      <div class="section-media-skills" style="background-image: url('image/media-bg.jpg');">
+        <div class="section-media-skills">
+          <div class="section-media-video" data-video="">
+            <video data-ignore="" autoplay="" loop="" muted="" data-keepplaying="" playsinline="" poster="image/media-bg.jpg">
+              <source src="video/back-video.mp4" type="video/mp4">
+            </video></div>
+        </div>
+      </div>
+    </section>
+    <!------*****///SKILLS***---->
+
+    <!------*****///WORKS***---->
+    <section class="wrap content" id="works">
+      <div class="text">Мои работы</div>
+      <div class="work-list wrapper-work">
+          <div class="ProjectContent" data-animation=fade-in data-work-list-id="0">
+            <div class="Project-image"  id="Project1"></div>
+          </div>
+          <div class="ProjectContent" data-animation=fade-in data-work-list-id="0">
+            <div class="Project-image" id="Project2"></div>
+          </div>
+          <div class="ProjectContent" data-animation=fade-in data-work-list-id="0">
+            <div class="Project-image" id="Project3"></div>
+          </div>
+          <div class="ProjectContent" data-animation=fade-in data-work-list-id="0">
+            <div class="Project-image" id="Project4"></div>
+          </div>
+          <div class="ProjectContent" data-animation=fade-in data-work-list-id="0">
+            <div class="Project-image" id="Project5"></div>
+          </div>
+          <div class="ProjectContent" data-animation=fade-in data-work-list-id="0">
+            <div class="Project-image" id="Project6"></div>
+          </div>
+          <div class="ProjectContent" data-animation=fade-in data-work-list-id="0">
+            <div class="Project-image" id="Project7"></div>
+          </div>
+      </div>
+      <div class="panel">
+<!-- /* Проект1*/ -->
+        <div class="about-project">
+          <i class="fas fa-times"></i>
+          <div class="modal-item-title">Шаблон веб-сайта</div>
+          <p class="work-tool">О работе:</p>
+          <div class="work-item">
+            Один из первых реализованных мной сайт при выполнение домашнего задания во время онлайн-обучения на платформе Prometheus.
+          </div>
+          <p class="work-tool">Инструменты:</p>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>HTML</span>
+          </div>	
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>CSS</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JQuery</span>
+          </div>
+          <ul>
+            <li class="modal-item-image-list">
+              <img class="modal-item-image" src="image/MyFirstPage.png">
+            </li>
+          </ul>
+        </div>
+<!-- /* Проект2*/ -->
+        <div class="about-project">
+          <i class="fas fa-times"></i>
+          <div class="modal-item-title">Калькулятор рассчета стоимости тура</div>
+          <p class="work-tool">О работе:</p>
+          <div class="work-item">
+            Реализован калькулятор рассчета стоимости тура. Пользователь выбирает желаемые условия тура, вводит количество дней и количество туристов. Калькулятор рассчитывает общую стоимость в гривне, исходят из данных пользователя. Также реализован конвертер суммы в доллар/евро по клику на соотвествующую валюту.
+          </div>
+          <p class="work-tool">Инструменты:</p>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>HTML</span>
+          </div>	
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>CSS</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JQuery</span>
+          </div>
+          <ul>
+            <li class="modal-item-image-list">
+              <img class="modal-item-image" src="image/Calc.png">
+            </li>
+          </ul>
+        </div>
+
+<!-- /* Проект3*/ -->
+        <div class="about-project">
+          <i class="fas fa-times"></i>
+          <div class="modal-item-title">Сайт кинофильмов</div>
+          <p class="work-tool">О работе:</p>
+          <div class="work-item">
+            Сайт показывает актуальные на данным момент кинофильмы по категориям с помощью методом fetch АPI https://api.themoviedb.org/3.<br/>
+            Сайт реализован на React. 
+          </div>
+          <p class="work-tool">Инструменты:</p>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>React</span>
+          </div>	
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>CSS</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JQuery</span>
+          </div>
+          <ul>
+            <li class="modal-item-image-list">
+              <img class="modal-item-image" src="image/NetflixReact.png">
+            </li>
+          </ul>
+        </div>
+
+<!-- /* Проект4*/ -->
+        <div class="about-project">
+          <i class="fas fa-times"></i>
+          <div class="modal-item-title">Сайт Bootstrap</div>
+          <p class="work-tool">О работе:</p>
+          <div class="work-item">
+            Сайт реализован с помощью библиотеки Bootstrap.
+          </div>
+          <p class="work-tool">Инструменты:</p>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>HTML</span>
+          </div>	
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>CSS</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>Bootstrap</span>
+          </div>
+          <ul>
+            <li class="modal-item-image-list">
+              <img class="modal-item-image" src="image/Bootstrap.png">
+            </li>
+          </ul>
+        </div>
+<!-- /* Проект5*/ -->
+        <div class="about-project">
+          <i class="fas fa-times"></i>
+          <div class="modal-item-title">Виджет задач</div>
+          <p class="work-tool">О работе:</p>
+          <div class="work-item">
+            Приложение задач реализовано на React. В приложение реализовано: фильтрация выполненых и невыполненых задач, вывод общего количества выполненых/невыполненых задча, а также поиск задачи по названию.
+          </div>
+          <p class="work-tool">Инструменты:</p>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>React</span>
+          </div>	
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>CSS</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JavaScript</span>
+          </div>
+          <ul>
+            <li class="modal-item-image-list">
+              <img class="modal-item-image" src="image/App_task.png">
+            </li>
+          </ul>
+        </div>
+<!-- /* Проект6*/ -->
+        <div class="about-project">
+          <i class="fas fa-times"></i>
+          <div class="modal-item-title">Мое резюме</div>
+          <p class="work-tool">О работе:</p>
+          <div class="work-item">
+         Адаптивное под разные виджеты и печать резюме реализовано с помощью HTML и CSS.
+          </div>
+          <p class="work-tool">Инструменты:</p>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>HTML</span>
+          </div>	
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>CSS</span>
+          </div>
+          <ul>
+            <li class="modal-item-image-list">
+              <img class="modal-item-image" src="image/CV.png">
+            </li>
+          </ul>
+        </div>
+<!-- /* Проект7*/ -->
+        <div class="about-project">
+          <i class="fas fa-times"></i>
+          <div class="modal-item-title">Сайт водных походов</div>
+          <p class="work-tool">О работе:</p>
+          <div class="work-item">
+         Адаптивный сайт предоставление туристических услуг, а именно водных походов предоставляет пользователю, выбрав критерии поиска, найди желаемый поход.
+         Реализована проверка выбора пользователем фильтров для поиска, а также валидация ввода минимальной и максимальной суммы.
+          </div>
+          <p class="work-tool">Инструменты:</p>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>HTML</span>
+          </div>	
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>CSS</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>JQuery</span>
+          </div>
+          <div class="work-tool-list">
+            <i class="fas fa-check-circle"></i>
+            <span>Ajax</span>
+          </div>
+          <ul>
+            <li class="modal-item-image-list">
+              <img class="modal-item-image" src="image/Diplom.png">
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+    <!------*****///WORKS***---->
+
+    <!------****CONTACTS****------->
+    <section class="wrap content" id="contacts">
+      <div class="text">Контакты</div>
+      <div class="wrap-about">
+        <p>Если вы заинтересованы в работе со мной, пожалуйста, не стесняйтесь связаться со мной.</p>
+      </div>
+      <ul>
+        <li><a href="tel:0675235662"><img src="image/smartphone.png" alt="phone"></a></li>
+        <li><a href="mailto:Annka.Minaeva@gmail.com"><img src="image/gmail.png" alt="email"></a></li>
+        <li><a href="https://www.facebook.com/annka.minaeva" target="_blank"><img src="image/facebook.png" alt="facebook"></a></li>
+        <li><a href="https://github.com/Annka2112" target="_blank"><img src="https://img.icons8.com/color/96/000000/github--v1.png"/></a></li>
+        <li><a href="https://www.linkedin.com/in/anna-minaeva-dev/" target="_blank"><img src="image/LinkedIn.png" style="width:88px; height:88px"/></a></li>
+    </ul>
+    <div class="contact-form">
+      <form action="send.php" method="POST">
+          <ul>
+              <li class="half">
+                  <input type="text" name="name" placeholder="Name">
+                  <label></label>
+              </li>
+              <li class="half">
+                  <input type="email" name="email" placeholder="Email">
+              </li>
+              <li class="half">
+                  <textarea name="msg" placeholder="message"></textarea>
+              </li>
+              <li class="half">
+                  <input id="send" type="submit" name="submit" value="Отправить"/>
+              </li>
+          </ul>
+      </form>
+    </div>
+
+    </section>
+    <!------****///CONTACTS****------->
+  </main>
+
+
+
+
+<script src="js/custom.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
+
+</body>
+</html>
